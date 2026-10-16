@@ -46,12 +46,13 @@ Audits added after those data were seen (`drivers/paperA_mlst_audit.py`,
 re-evaluate committed results. Their outputs are written to separate files and do not overwrite
 a pre-specified decision.
 
-The trained P4 networks (`p4_params_raw.npz` and `p4_params_projected.npz`, about 44 MB each)
-are needed only by the drivers that re-evaluate them (`p4_adf`, `p4_adf_projected`,
-`p4_policy_fields`, `p4_policy_posthoc`). `p4_raw` and `p4_projected_rerun` write them to
-`docs/_generated/data/paper2/` (GPU, about 1.5 hours each). P4 training is deterministic: in
-the recorded environment the projected-storage rerun reproduced every committed eigenvalue bit
-for bit.
+`p4_params_raw.npz` and `p4_params_projected.npz` (about 44 MB each) hold the trained P4
+networks of the two storage policies: float64 parameters for the three rules, modes 1–3 and 50
+seeds, keyed `<rule>_m<mode>_<parameter>`. `p4_adf`, `p4_adf_projected`, `p4_policy_fields` and
+`p4_policy_posthoc` re-evaluate them; `p4_policy_fields.csv` records the SHA-256 digest of every
+mode-1 and mode-2 network. `p4_raw` and `p4_projected_rerun` regenerate them (GPU, about 1.5
+hours each). P4 training is deterministic: in the recorded environment the projected-storage
+rerun reproduced every committed eigenvalue bit for bit.
 
 ## Running it
 
