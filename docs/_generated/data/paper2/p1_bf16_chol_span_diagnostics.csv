@@ -1,0 +1,10 @@
+arm,dtype,stage_mode,n_seeds,iters,k,kappa_gram,kappa_gram_times_eps,dev_identity,lam_min_normalized,qr_orth_defect,n_dropped,rank_1e10,rank_1e12,rank_1e16,proj_agreement_rel,gram_solve_finite_frac,span_finite_frac,eps_machine,measure_dtype,n_seeds_summarized
+b_projection_exact,bfloat16,2,50,4000,1,1.0,0.0078125,1.1102230246251565e-16,1.0,0.0038755173564494205,0,1,1,1,nan,0.0,1.0,0.0078125,float64,50
+b_projection_exact,bfloat16,3,50,4000,2,175.60065944713222,1.3718801519307204,0.978186765392935,0.021813234607064913,0.02084254195454864,0,2,2,2,nan,0.0,1.0,0.0078125,float64,50
+b_projection_exact,bfloat16,4,50,4000,3,nan,nan,nan,nan,nan,1,3,3,3,nan,0.0,0.94,0.0078125,float64,50
+b_projection_exact,bfloat16,5,50,4000,4,nan,nan,nan,nan,nan,4,0,0,0,nan,0.0,0.36,0.0078125,float64,50
+b_projection_exact,bfloat16,6,50,4000,5,nan,nan,nan,nan,nan,5,0,0,0,nan,0.0,0.08,0.0078125,float64,50
+b_projection_exact,bfloat16,7,50,4000,6,nan,nan,nan,nan,nan,6,0,0,0,nan,0.0,0.0,0.0078125,float64,50
+b_projection_exact,bfloat16,8,50,4000,7,nan,nan,nan,nan,nan,7,0,0,0,nan,0.0,0.0,0.0078125,float64,50
+b_projection_exact,bfloat16,9,50,4000,8,nan,nan,nan,nan,nan,8,0,0,0,nan,0.0,0.0,0.0078125,float64,50
+b_projection_exact,bfloat16,10,50,4000,9,nan,nan,nan,nan,nan,9,0,0,0,nan,0.0,0.0,0.0078125,float64,50

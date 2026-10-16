@@ -1,0 +1,29 @@
+{
+  "git_sha": "94b7f249a7645bca9b369914d48179e2fa11bda3",
+  "git_branch": "unknown",
+  "git_dirty": true,
+  "timestamp_utc": "2026-10-16T02:47:39.320291+00:00",
+  "python": "3.12.3",
+  "numpy": "2.1.0",
+  "scipy": "1.17.1",
+  "mpmath": "1.3.0",
+  "platform": "Linux 6.17.0-1021-nvidia aarch64",
+  "precision": "fp64 + mpmath dps=50",
+  "driver": "run_paperA_mlst.p4_adf_projected",
+  "launch": {
+    "git_sha": "94b7f249a7645bca9b369914d48179e2fa11bda3",
+    "git_dirty": false,
+    "timestamp_utc": "2026-10-16T02:46:52.547569+00:00"
+  },
+  "quick": false,
+  "levels": [
+    0,
+    4,
+    8
+  ],
+  "n_per_cell": 20,
+  "ratio": 0.5,
+  "quadrature": "the P4-ADF graded quadrature (manifest_p4_adf.json); level 0 is the training quadrature",
+  "neural": "p4_params_projected.npz networks, re-projected on each quadrature with the projected-storage convention: each mode is projected against the projected lower modes on that quadrature",
+  "prespecification": "2026-10-16-mlst-p4-projected-prespecification.md"
+}

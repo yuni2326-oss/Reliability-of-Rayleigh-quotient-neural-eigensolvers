@@ -1,0 +1,30 @@
+{
+  "git_sha": "94d6291e5a8ecbf78ef6fa2bfe8d8264e7faec1a",
+  "git_branch": "master",
+  "git_dirty": true,
+  "timestamp_utc": "2026-08-09T01:50:24.205904+00:00",
+  "python": "3.12.3",
+  "numpy": "2.1.0",
+  "scipy": "1.17.1",
+  "mpmath": "1.3.0",
+  "platform": "Linux 6.17.0-1021-nvidia aarch64",
+  "precision": "fp64 + mpmath dps=50",
+  "driver": "run_p4_neural.main",
+  "n_modes": 3,
+  "n_seeds": 50,
+  "iters": 4000,
+  "n_per_block": 20,
+  "n_q": 1200,
+  "n_ref": 8,
+  "beta": 3.0,
+  "disclosure": {
+    "width": 64,
+    "depth": 4,
+    "activation": "tanh",
+    "n_params_per_seed": 12802,
+    "n_seeds": 1,
+    "ansatz": "u = phi_Omega(x,y) * N(x,y), phi_Omega = R-equivalence ADF"
+  },
+  "reference": "Richardson-extrapolated graded Q2 where available, else direct fine-grid solve",
+  "mac": "mass-weighted, FEM reference evaluated at the neural arm's own quadrature points"
+}

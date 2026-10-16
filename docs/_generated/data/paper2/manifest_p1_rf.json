@@ -1,0 +1,37 @@
+{
+  "git_sha": "c8db9faf673b3c45cd71c6b7bbc5e89069bc93e6",
+  "git_branch": "unknown",
+  "git_dirty": true,
+  "timestamp_utc": "2026-10-15T00:56:54.620219+00:00",
+  "python": "3.12.3",
+  "numpy": "2.1.0",
+  "scipy": "1.17.1",
+  "mpmath": "1.3.0",
+  "platform": "Linux 6.17.0-1021-nvidia aarch64",
+  "precision": "fp64 + mpmath dps=50",
+  "driver": "run_paperA_mlst.p1_rf",
+  "launch": {
+    "git_sha": "c8db9faf673b3c45cd71c6b7bbc5e89069bc93e6",
+    "git_dirty": false,
+    "timestamp_utc": "2026-10-15T00:13:01.164145+00:00"
+  },
+  "quick": false,
+  "n_modes": 10,
+  "n_seeds": 50,
+  "iters": 4000,
+  "dtype": "float64",
+  "prefix": "modes 1-2 solved once per seed on the committed (a') path (network storage, diagonal rule); the raw stored pair is shared by the three arms",
+  "arms": {
+    "a_prime_frozen": "raw pair + diagonal rule",
+    "rf_frozen": "the same pair orthogonalized at storage time (classical Gram-Schmidt, Rowan-style) + diagonal rule; later stages store their deflated state",
+    "b_frozen": "raw pair + exact stored-span projection"
+  },
+  "storage": "modes from 3 on are kept as arrays at the fixed Gauss nodes (the same deflation as re-evaluating the network there; tested)",
+  "reproduction_gate": {
+    "checked": true,
+    "n": 100,
+    "bit_identical": 46,
+    "pass": false
+  },
+  "prespecification": "2026-10-14-mlst-prespecification.md"
+}

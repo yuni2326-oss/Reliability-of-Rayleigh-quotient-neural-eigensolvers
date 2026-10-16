@@ -1,0 +1,5 @@
+arm,mode,ladder,nodes,n,p_correct,wilson_lo,wilson_hi,correct,lower_mode_basin,spurious,non_converged,p_accurate,n_certified,seconds
+a_prime_projection_diagonal,3,I0,gauss,50,0.0,0.0,0.0713475991644559,0,50,0,0,0.0,50,223.5613480869215
+a_prime_projection_diagonal,3,I1,gauss,50,0.0,0.0,0.0713475991644559,0,50,0,0,0.0,50,226.21067151008174
+a_prime_projection_diagonal,3,I3,gauss,50,0.0,0.0,0.0713475991644559,0,49,0,1,0.0,49,226.13857925799675
+a_prime_projection_diagonal,3,I5,gauss,50,0.0,0.0,0.0713475991644559,0,50,0,0,0.0,50,226.14956285699736

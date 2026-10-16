@@ -1,0 +1,151 @@
+{
+  "table16_timing_spans": {
+    "neural": {
+      "rows": {
+        "c_curriculum/1": {
+          "ratio": 1.512026186571238,
+          "orders": 0.17955931271605224
+        },
+        "p4_neural_2d[exact projection]/1": {
+          "ratio": 1.3200196312321524,
+          "orders": 0.12058039004857665
+        },
+        "p4_neural_2d[exact projection]/2": {
+          "ratio": 1.3509758195563106,
+          "orders": 0.130647575870851
+        },
+        "p4_neural_2d[exact projection]/3": {
+          "ratio": 1.6782962298188686,
+          "orders": 0.2248686189606132
+        }
+      },
+      "max_orders": 0.2248686189606132,
+      "max_key": "p4_neural_2d[exact projection]/3"
+    },
+    "classical": {
+      "rows": {
+        "P1/monomial_raw/8": {
+          "ratio": 1.2017758037936204,
+          "orders": 0.07982345580577845
+        },
+        "P4/graded Q2 (beta=3.0)/8": {
+          "ratio": 1.0636419694403678,
+          "orders": 0.026795465493631546
+        }
+      },
+      "max_orders": 0.07982345580577845,
+      "max_key": "P1/monomial_raw/8"
+    },
+    "not_repeated": [
+      "Eig-PIELM attempt times (single deterministic solve)",
+      "graded Q2 (beta=1.0) at 322 dof (P4 mode 2 baseline)"
+    ]
+  },
+  "fp32_fixed_span_reference": {
+    "by_stage": {
+      "2": {
+        "max": 7.149927092550503e-15,
+        "median": 1.994865372836828e-15
+      },
+      "3": {
+        "max": 6.348077987493024e-14,
+        "median": 1.1304173590816464e-14
+      },
+      "4": {
+        "max": 6.399101553309489e-13,
+        "median": 3.8957027705158514e-14
+      },
+      "5": {
+        "max": 3.9922271088374635e-09,
+        "median": 6.734789673688089e-13
+      },
+      "6": {
+        "max": 8.611131491897781e-09,
+        "median": 1.6141926537649273e-10
+      },
+      "7": {
+        "max": 3.166171727590688e-09,
+        "median": 2.7817392389591705e-10
+      },
+      "8": {
+        "max": 7.137414869838022e-09,
+        "median": 3.171237180240156e-10
+      },
+      "9": {
+        "max": 4.909535373029768e-09,
+        "median": 2.944252538521754e-10
+      },
+      "10": {
+        "max": 4.399502455516777e-09,
+        "median": 5.096992798702843e-10
+      }
+    },
+    "max_rel_diff": 8.611131491897781e-09,
+    "n_pairs": 450,
+    "reference": "binary128 weighted MGS (two passes) vs float64 SVD least squares (gelsd)"
+  },
+  "p1_raw_monomial_n12_cholesky": {
+    "numpy": "2.1.0",
+    "scipy": "1.17.1",
+    "n": 12,
+    "asymmetry_rel": 0.0,
+    "potrf_lower_info": 0,
+    "scipy_cholesky_lower": {
+      "ok": true,
+      "message": ""
+    },
+    "potrf_upper_info": 0,
+    "scipy_cholesky_upper": {
+      "ok": true,
+      "message": ""
+    },
+    "eig_M_min": 6.1054747070982195e-18,
+    "eig_M_max": 0.9046928810319561,
+    "eigh": {
+      "gvd": {
+        "ok": true,
+        "lambda_1": 12.362363368406939,
+        "backward_error": 2.2252319645334235e-14
+      },
+      "gv": {
+        "ok": true,
+        "lambda_1": 12.362363368406939,
+        "backward_error": 2.2103124617870578e-14
+      },
+      "gvx": {
+        "ok": true,
+        "lambda_1": 12.362363368406939,
+        "backward_error": 2.2103124617870578e-14
+      }
+    }
+  },
+  "c_curriculum_coarse_target": {
+    "rows": [
+      {
+        "mode": 1,
+        "reps": 7,
+        "lambda": 12.362364319655573,
+        "seconds_median": 0.12063864804804325,
+        "seconds_min": 0.08901161095127463,
+        "seconds_max": 0.25309180095791817
+      },
+      {
+        "mode": 2,
+        "reps": 7,
+        "lambda": 485.5462937841937,
+        "seconds_median": 0.08771728305146098,
+        "seconds_min": 0.060365668032318354,
+        "seconds_max": 0.18674257211387157
+      },
+      {
+        "mode": 3,
+        "reps": 7,
+        "lambda": 3999.2648467778513,
+        "seconds_median": 0.11905550770461559,
+        "seconds_min": 0.05397916492074728,
+        "seconds_max": 0.1639314298518002
+      }
+    ],
+    "timed": "coarse_ritz_lambda(mode): basis construction + assembly + eigensolve"
+  }
+}

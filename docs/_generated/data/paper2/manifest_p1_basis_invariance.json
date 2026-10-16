@@ -1,0 +1,40 @@
+{
+  "git_sha": "c8db9faf673b3c45cd71c6b7bbc5e89069bc93e6",
+  "git_branch": "unknown",
+  "git_dirty": true,
+  "timestamp_utc": "2026-10-15T01:03:59.940280+00:00",
+  "python": "3.12.3",
+  "numpy": "2.1.0",
+  "scipy": "1.17.1",
+  "mpmath": "1.3.0",
+  "platform": "Linux 6.17.0-1021-nvidia aarch64",
+  "precision": "fp64 + mpmath dps=50",
+  "driver": "run_paperA_mlst.p1_basis",
+  "launch": {
+    "git_sha": "c8db9faf673b3c45cd71c6b7bbc5e89069bc93e6",
+    "git_dirty": false,
+    "timestamp_utc": "2026-10-15T00:57:29.756597+00:00"
+  },
+  "quick": false,
+  "n_seeds": 50,
+  "iters": 4000,
+  "alphas": [
+    0.01,
+    0.05,
+    0.25,
+    1.0
+  ],
+  "alphas_operator": [
+    0.0,
+    0.01,
+    0.05,
+    0.25,
+    1.0,
+    4.0,
+    7.4
+  ],
+  "basis": "q1, q2 = mass-orthonormal basis of the frozen prefix pair (classical Gram-Schmidt); v1 = q1, v2 = (q2 + alpha q1)/sqrt(1 + alpha^2), the same linear combination on phi''",
+  "subspace": "unchanged for every alpha, so the exact projection is basis-invariant; alpha = 0 is the rf_frozen arm and alpha about 7.4 (r = 0.991) the a_prime_frozen arm",
+  "candidate": "operator level: the untrained mode-3 networks (seed 1000*0 + 2)",
+  "prespecification": "2026-10-14-mlst-prespecification.md"
+}

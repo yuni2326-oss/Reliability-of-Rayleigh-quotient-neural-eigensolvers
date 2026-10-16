@@ -1,0 +1,35 @@
+{
+  "git_sha": "6a507df985c3fc4f24d1f30a8c541e47cf2e3ad0",
+  "git_branch": "master",
+  "git_dirty": true,
+  "timestamp_utc": "2026-08-26T05:12:07.463762+00:00",
+  "python": "3.12.3",
+  "numpy": "2.5.0",
+  "scipy": "1.18.0",
+  "mpmath": "1.3.0",
+  "platform": "Linux 6.17.0-1021-nvidia aarch64",
+  "precision": "fp64 + mpmath dps=50",
+  "driver": "run_p1_compare.main",
+  "per_attempt_source": "p1_single_seed_cost.csv (measured at n_seeds = 1); no batching conversion is applied",
+  "eps_levels": [
+    0.01,
+    0.001,
+    0.0001,
+    1e-06
+  ],
+  "modes": [
+    1,
+    2,
+    3
+  ],
+  "families": [
+    "classical",
+    "neural_randfeat",
+    "neural_gradient"
+  ],
+  "accounting_note": "classical = one numpy/CPU solve; gradient arms = measured at n_seeds = 1 on a shared GB10 GPU; Eig-PIELM = one numpy/CPU solve. The CPU/GPU difference is not corrected for and the shared-GPU wall-clock spread is reported per row.",
+  "inputs": [
+    "p1_basis_study.csv",
+    "p1_neural_mode_sweep.csv"
+  ]
+}

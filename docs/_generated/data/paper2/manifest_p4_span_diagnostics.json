@@ -1,0 +1,21 @@
+{
+  "git_sha": "6a507df985c3fc4f24d1f30a8c541e47cf2e3ad0",
+  "git_branch": "master",
+  "git_dirty": true,
+  "timestamp_utc": "2026-08-28T04:12:58.512384+00:00",
+  "python": "3.12.3",
+  "numpy": "2.1.0",
+  "scipy": "1.17.1",
+  "mpmath": "1.3.0",
+  "platform": "Linux 6.17.0-1021-nvidia aarch64",
+  "precision": "fp64 + mpmath dps=50",
+  "driver": "run_p4_neural.run_span_diagnostics",
+  "projection": "diagonal",
+  "n_modes": 6,
+  "n_seeds": 8,
+  "iters": 4000,
+  "n_per_block": 20,
+  "metric": "the same span diagnostics as P1, taken in the two-component mass inner product",
+  "not_scored": "this run measures the stored span only; the scored 50-seed cells are in p4_neural.csv and p4_neural_arms.csv",
+  "added": "2026-08-26"
+}

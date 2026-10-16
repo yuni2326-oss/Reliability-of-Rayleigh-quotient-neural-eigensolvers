@@ -1,0 +1,14 @@
+family,solver,mode,e_lam_source,size_label,size,iterations,e_lam,p_correct,seconds_reported,seconds_per_attempt,accounting,E_T_success,factorization_ok,pareto_mode
+classical,monomial_raw,1,p1_basis_study.csv,n_dof,8,,2.0096583489452704e-12,1.0,0.00017342297360301018,0.00017342297360301018,single deterministic solve (numpy/CPU),0.00017342297360301018,True,1
+classical,monomial_raw,1,p1_basis_study.csv,n_dof,10,,1.0489422241742082e-13,1.0,0.0001931029837578535,0.0001931029837578535,single deterministic solve (numpy/CPU),0.0001931029837578535,True,1
+classical,monomial_raw,2,p1_basis_study.csv,n_dof,8,,1.8444835969957652e-08,1.0,0.00017342297360301018,0.00017342297360301018,single deterministic solve (numpy/CPU),0.00017342297360301018,True,2
+classical,monomial_raw,2,p1_basis_study.csv,n_dof,10,,3.682327320461825e-12,1.0,0.0001931029837578535,0.0001931029837578535,single deterministic solve (numpy/CPU),0.0001931029837578535,True,2
+classical,chebyshev,2,p1_basis_study.csv,n_dof,10,,3.4905540738982853e-12,1.0,0.0005505876615643501,0.0005505876615643501,single deterministic solve (numpy/CPU),0.0005505876615643501,True,2
+classical,integrated_legendre,2,p1_basis_study.csv,n_dof,10,,2.9951983924511916e-12,1.0,0.0012463291641324759,0.0012463291641324759,single deterministic solve (numpy/CPU),0.0012463291641324759,True,2
+classical,monomial_orthonormalized,2,p1_basis_study.csv,n_dof,10,,1.9614024418064657e-12,1.0,0.052547371946275234,0.052547371946275234,single deterministic solve (numpy/CPU),0.052547371946275234,True,2
+classical,monomial_raw,3,p1_basis_study.csv,n_dof,8,,2.207067811159684e-06,1.0,0.00017342297360301018,0.00017342297360301018,single deterministic solve (numpy/CPU),0.00017342297360301018,True,3
+classical,monomial_raw,3,p1_basis_study.csv,n_dof,10,,3.0822467710038412e-09,1.0,0.0001931029837578535,0.0001931029837578535,single deterministic solve (numpy/CPU),0.0001931029837578535,True,3
+classical,monomial_raw,3,p1_basis_study.csv,n_dof,12,,1.1648869167594209e-11,1.0,0.0002189110964536667,0.0002189110964536667,single deterministic solve (numpy/CPU),0.0002189110964536667,True,3
+classical,chebyshev,3,p1_basis_study.csv,n_dof,12,,4.829474048233122e-12,1.0,0.0006953391712158918,0.0006953391712158918,single deterministic solve (numpy/CPU),0.0006953391712158918,True,3
+classical,shifted_legendre,3,p1_basis_study.csv,n_dof,12,,5.741466451246322e-13,1.0,0.000828122952952981,0.000828122952952981,single deterministic solve (numpy/CPU),0.000828122952952981,True,3
+classical,integrated_legendre,3,p1_basis_study.csv,n_dof,12,,2.149167321221834e-13,1.0,0.001627270132303238,0.001627270132303238,single deterministic solve (numpy/CPU),0.001627270132303238,True,3

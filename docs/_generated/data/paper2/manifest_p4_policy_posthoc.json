@@ -1,0 +1,27 @@
+{
+  "git_sha": "6b3f6ff9d58bc184381734ac955f7f7dc1090e60",
+  "git_branch": "unknown",
+  "git_dirty": true,
+  "timestamp_utc": "2026-10-16T02:54:00.931760+00:00",
+  "python": "3.12.3",
+  "numpy": "2.1.0",
+  "scipy": "1.17.1",
+  "mpmath": "1.3.0",
+  "platform": "Linux 6.17.0-1026-nvidia aarch64",
+  "precision": "fp64 + mpmath dps=50",
+  "driver": "run_paperA_mlst.p4_policy_posthoc",
+  "launch": {
+    "git_sha": "6b3f6ff9d58bc184381734ac955f7f7dc1090e60",
+    "git_dirty": false,
+    "timestamp_utc": "2026-10-16T02:53:58.112563+00:00"
+  },
+  "quick": false,
+  "n_per_block": 20,
+  "width": 64,
+  "depth": 4,
+  "status": "post hoc: added after the prespecified outputs were seen; not part of the prespecified judgments",
+  "state_diff": "max absolute difference over all six state components (u, v and four derivatives) and all training quadrature points, raw-storage run minus projected-storage rerun",
+  "mode3": "mass MAC and amplitude ratio between the trained mode-3 states, each after its own policy's projection",
+  "defect": "normalized non-orthogonality of the projected stored set [phi1, P(phi2)] before mode 3; the jitter column is the share left by the absolute 1e-14 Gram jitter of the exact path",
+  "prespecification": "2026-10-16-mlst-p4-projected-prespecification.md"
+}

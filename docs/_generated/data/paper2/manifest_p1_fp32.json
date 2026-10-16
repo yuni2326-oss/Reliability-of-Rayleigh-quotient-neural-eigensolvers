@@ -1,0 +1,45 @@
+{
+  "git_sha": "6a507df985c3fc4f24d1f30a8c541e47cf2e3ad0",
+  "git_branch": "master",
+  "git_dirty": true,
+  "timestamp_utc": "2026-08-27T23:20:59.050271+00:00",
+  "python": "3.12.3",
+  "numpy": "2.1.0",
+  "scipy": "1.17.1",
+  "mpmath": "1.3.0",
+  "platform": "Linux 6.17.0-1021-nvidia aarch64",
+  "precision": "fp64 + mpmath dps=50",
+  "driver": "run_p1_qr.run_precision_stress",
+  "arms": [
+    "b_projection_exact",
+    "b_prime_projection_qr"
+  ],
+  "dtype": "float32",
+  "tag": "fp32",
+  "exact_solver": "library",
+  "n_modes": 10,
+  "n_seeds": 50,
+  "iters": 4000,
+  "runs": [
+    {
+      "arm": "b_projection_exact",
+      "dtype": "float32",
+      "aborted": false,
+      "error": "",
+      "n_modes_completed": 10
+    },
+    {
+      "arm": "b_prime_projection_qr",
+      "dtype": "float32",
+      "aborted": false,
+      "error": "",
+      "n_modes_completed": 10
+    }
+  ],
+  "fp64_baseline": "not re-run; the fp64 rows come from p1_neural_mode_sweep.csv (arm b) and p1_neural_qr.csv (arm b'), which use the same 50 seeds, 4000 iterations, I0, fixed Gauss and n_q = 256",
+  "quadrature": "Gauss nodes and weights are built in fp64 and cast down, so the quadrature rule itself is not part of the precision variable",
+  "prediction": "kappa_2(G) reaches 1.56e11 at k = 9 in fp64, so kappa_2(G) times the fp32 unit roundoff is of order 1e4 and the Gram path should have no significant digits left, while the QR path depends on kappa_2(Phi) = sqrt(kappa_2(G)) instead. The prediction recorded before the reduced-precision runs is in docs/paper2-cs/2026-08-26-precision-third-point-prediction.md",
+  "rescoring": "per-seed records and the projected mode shapes are saved, so a change of scoring rule or reference can be applied without re-running the solves",
+  "measurement": "spectral diagnostics are computed on a float64 copy of the stored span at precisions where the library provides no symmetric eigensolver; the orthonormalization itself runs at the working precision and each row records the measure_dtype actually used",
+  "added": "2026-08-26, after the pre-specified grid; the judgment rules (MAC >= 0.9, |dlambda|/lambda <= 0.05, four outcomes, 50 seeds, Wilson 95 %, 4000 iterations) were not changed"
+}

@@ -1,0 +1,68 @@
+problem,label,quantity_certified,method,certified_against,agreement,deficit,tolerance,passes,note
+P1,mode 1,mode shape,"analytic Euler-Bernoulli, exponential form",same formula at higher precision,1.0,0.0,1e-09,True,comparison at dps = 30
+P1,mode 1,mode curvature,"analytic second derivative, exponential form",same formula at higher precision,0.9999999999999999,1.1102230246251565e-16,1e-09,True,agreement reported as 1 - max relative error; comparison at dps = 30
+P1,mode 2,mode shape,"analytic Euler-Bernoulli, exponential form",same formula at higher precision,1.0,0.0,1e-09,True,comparison at dps = 30
+P1,mode 2,mode curvature,"analytic second derivative, exponential form",same formula at higher precision,0.9999999999999998,2.220446049250313e-16,1e-09,True,agreement reported as 1 - max relative error; comparison at dps = 30
+P1,mode 3,mode shape,"analytic Euler-Bernoulli, exponential form",same formula at higher precision,1.0,0.0,1e-09,True,comparison at dps = 30
+P1,mode 3,mode curvature,"analytic second derivative, exponential form",same formula at higher precision,0.9999999999999997,3.3306690738754696e-16,1e-09,True,agreement reported as 1 - max relative error; comparison at dps = 30
+P1,mode 4,mode shape,"analytic Euler-Bernoulli, exponential form",same formula at higher precision,0.9999999999999998,2.220446049250313e-16,1e-09,True,comparison at dps = 30
+P1,mode 4,mode curvature,"analytic second derivative, exponential form",same formula at higher precision,0.9999999999999996,4.440892098500626e-16,1e-09,True,agreement reported as 1 - max relative error; comparison at dps = 30
+P1,mode 5,mode shape,"analytic Euler-Bernoulli, exponential form",same formula at higher precision,1.0,0.0,1e-09,True,comparison at dps = 31
+P1,mode 5,mode curvature,"analytic second derivative, exponential form",same formula at higher precision,0.9999999999999994,5.551115123125783e-16,1e-09,True,agreement reported as 1 - max relative error; comparison at dps = 31
+P1,mode 6,mode shape,"analytic Euler-Bernoulli, exponential form",same formula at higher precision,1.0,0.0,1e-09,True,comparison at dps = 32
+P1,mode 6,mode curvature,"analytic second derivative, exponential form",same formula at higher precision,0.9999999999999991,8.881784197001252e-16,1e-09,True,agreement reported as 1 - max relative error; comparison at dps = 32
+P1,mode 7,mode shape,"analytic Euler-Bernoulli, exponential form",same formula at higher precision,1.0,0.0,1e-09,True,comparison at dps = 33
+P1,mode 7,mode curvature,"analytic second derivative, exponential form",same formula at higher precision,0.9999999999999988,1.2212453270876722e-15,1e-09,True,agreement reported as 1 - max relative error; comparison at dps = 33
+P1,mode 8,mode shape,"analytic Euler-Bernoulli, exponential form",same formula at higher precision,1.0,0.0,1e-09,True,comparison at dps = 35
+P1,mode 8,mode curvature,"analytic second derivative, exponential form",same formula at higher precision,0.9999999999999988,1.2212453270876722e-15,1e-09,True,agreement reported as 1 - max relative error; comparison at dps = 35
+P1,mode 9,mode shape,"analytic Euler-Bernoulli, exponential form",same formula at higher precision,1.0,0.0,1e-09,True,comparison at dps = 36
+P1,mode 9,mode curvature,"analytic second derivative, exponential form",same formula at higher precision,0.9999999999999988,1.2212453270876722e-15,1e-09,True,agreement reported as 1 - max relative error; comparison at dps = 36
+P1,mode 10,mode shape,"analytic Euler-Bernoulli, exponential form",same formula at higher precision,1.0,0.0,1e-09,True,comparison at dps = 37
+P1,mode 10,mode curvature,"analytic second derivative, exponential form",same formula at higher precision,0.9999999999999988,1.2212453270876722e-15,1e-09,True,agreement reported as 1 - max relative error; comparison at dps = 37
+P1,mode 11,mode shape,"analytic Euler-Bernoulli, exponential form",same formula at higher precision,1.0,0.0,1e-09,True,comparison at dps = 39
+P1,mode 11,mode curvature,"analytic second derivative, exponential form",same formula at higher precision,0.9999999999999984,1.5543122344752192e-15,1e-09,True,agreement reported as 1 - max relative error; comparison at dps = 39
+P1,mode 12,mode shape,"analytic Euler-Bernoulli, exponential form",same formula at higher precision,0.9999999999999998,2.220446049250313e-16,1e-09,True,comparison at dps = 40
+P1,mode 12,mode curvature,"analytic second derivative, exponential form",same formula at higher precision,0.9999999999999981,1.887379141862766e-15,1e-09,True,agreement reported as 1 - max relative error; comparison at dps = 40
+P1,mode 13,mode shape,"analytic Euler-Bernoulli, exponential form",same formula at higher precision,1.0,0.0,1e-09,True,comparison at dps = 42
+P1,mode 13,mode curvature,"analytic second derivative, exponential form",same formula at higher precision,0.999999999999998,1.9984014443252818e-15,1e-09,True,agreement reported as 1 - max relative error; comparison at dps = 42
+P1,mode 14,mode shape,"analytic Euler-Bernoulli, exponential form",same formula at higher precision,1.0,0.0,1e-09,True,comparison at dps = 43
+P1,mode 14,mode curvature,"analytic second derivative, exponential form",same formula at higher precision,0.9999999999999976,2.4424906541753444e-15,1e-09,True,agreement reported as 1 - max relative error; comparison at dps = 43
+P1,mode 15,mode shape,"analytic Euler-Bernoulli, exponential form",same formula at higher precision,1.0,0.0,1e-09,True,comparison at dps = 44
+P1,mode 15,mode curvature,"analytic second derivative, exponential form",same formula at higher precision,0.9999999999999979,2.1094237467877974e-15,1e-09,True,agreement reported as 1 - max relative error; comparison at dps = 44
+P1,mode 16,mode shape,"analytic Euler-Bernoulli, exponential form",same formula at higher precision,1.0,0.0,1e-09,True,comparison at dps = 46
+P1,mode 16,mode curvature,"analytic second derivative, exponential form",same formula at higher precision,0.9999999999999978,2.220446049250313e-15,1e-09,True,agreement reported as 1 - max relative error; comparison at dps = 46
+P1,mode 17,mode shape,"analytic Euler-Bernoulli, exponential form",same formula at higher precision,1.0,0.0,1e-09,True,comparison at dps = 47
+P1,mode 17,mode curvature,"analytic second derivative, exponential form",same formula at higher precision,0.9999999999999977,2.3314683517128287e-15,1e-09,True,agreement reported as 1 - max relative error; comparison at dps = 47
+P1,mode 18,mode shape,"analytic Euler-Bernoulli, exponential form",same formula at higher precision,0.9999999999999998,2.220446049250313e-16,1e-09,True,comparison at dps = 48
+P1,mode 18,mode curvature,"analytic second derivative, exponential form",same formula at higher precision,0.9999999999999979,2.1094237467877974e-15,1e-09,True,agreement reported as 1 - max relative error; comparison at dps = 48
+P1,mode 19,mode shape,"analytic Euler-Bernoulli, exponential form",same formula at higher precision,1.0,0.0,1e-09,True,comparison at dps = 50
+P1,mode 19,mode curvature,"analytic second derivative, exponential form",same formula at higher precision,0.9999999999999978,2.220446049250313e-15,1e-09,True,agreement reported as 1 - max relative error; comparison at dps = 50
+P1,mode 20,mode shape,"analytic Euler-Bernoulli, exponential form",same formula at higher precision,1.0,0.0,1e-09,True,comparison at dps = 51
+P1,mode 20,mode curvature,"analytic second derivative, exponential form",same formula at higher precision,0.9999999999999976,2.4424906541753444e-15,1e-09,True,agreement reported as 1 - max relative error; comparison at dps = 51
+P2,"m=0, n=0",mode shape,exact Bessel combination (fp64),same coefficients at higher precision,1.0,0.0,1e-09,True,comparison at dps = 30
+P2,"m=0, n=1",mode shape,exact Bessel combination (fp64),same coefficients at higher precision,1.0,0.0,1e-09,True,comparison at dps = 30
+P2,"m=0, n=2",mode shape,exact Bessel combination (fp64),same coefficients at higher precision,1.0,0.0,1e-09,True,comparison at dps = 30
+P2,"m=0, n=3",mode shape,exact Bessel combination (fp64),same coefficients at higher precision,1.0,0.0,1e-09,True,comparison at dps = 33
+P2,"m=1, n=0",mode shape,exact Bessel combination (fp64),same coefficients at higher precision,1.0,0.0,1e-09,True,degenerate pair; comparison at dps = 30
+P2,"m=1, n=1",mode shape,exact Bessel combination (fp64),same coefficients at higher precision,1.0,0.0,1e-09,True,degenerate pair; comparison at dps = 30
+P2,"m=1, n=2",mode shape,exact Bessel combination (fp64),same coefficients at higher precision,1.0,0.0,1e-09,True,degenerate pair; comparison at dps = 30
+P2,"m=1, n=3",mode shape,exact Bessel combination (fp64),same coefficients at higher precision,0.9999999999999998,2.220446049250313e-16,1e-09,True,degenerate pair; comparison at dps = 33
+P2,"m=2, n=0",mode shape,exact Bessel combination (fp64),same coefficients at higher precision,0.9999999999999996,4.440892098500626e-16,1e-09,True,degenerate pair; comparison at dps = 30
+P2,"m=2, n=1",mode shape,exact Bessel combination (fp64),same coefficients at higher precision,1.0,0.0,1e-09,True,degenerate pair; comparison at dps = 30
+P2,"m=2, n=2",mode shape,exact Bessel combination (fp64),same coefficients at higher precision,1.0,0.0,1e-09,True,degenerate pair; comparison at dps = 30
+P2,"m=2, n=3",mode shape,exact Bessel combination (fp64),same coefficients at higher precision,0.9999999999999998,2.220446049250313e-16,1e-09,True,degenerate pair; comparison at dps = 33
+P2,"m=3, n=0",mode shape,exact Bessel combination (fp64),same coefficients at higher precision,1.0,0.0,1e-09,True,degenerate pair; comparison at dps = 30
+P2,"m=3, n=1",mode shape,exact Bessel combination (fp64),same coefficients at higher precision,0.9999999999999996,4.440892098500626e-16,1e-09,True,degenerate pair; comparison at dps = 30
+P2,"m=3, n=2",mode shape,exact Bessel combination (fp64),same coefficients at higher precision,1.0,0.0,1e-09,True,degenerate pair; comparison at dps = 31
+P2,"m=3, n=3",mode shape,exact Bessel combination (fp64),same coefficients at higher precision,1.0,0.0,1e-09,True,degenerate pair; comparison at dps = 33
+P2,"m=4, n=0",mode shape,exact Bessel combination (fp64),same coefficients at higher precision,1.0,0.0,1e-09,True,degenerate pair; comparison at dps = 30
+P2,"m=4, n=1",mode shape,exact Bessel combination (fp64),same coefficients at higher precision,1.0,0.0,1e-09,True,degenerate pair; comparison at dps = 30
+P2,"m=4, n=2",mode shape,exact Bessel combination (fp64),same coefficients at higher precision,0.9999999999999998,2.220446049250313e-16,1e-09,True,degenerate pair; comparison at dps = 31
+P2,"m=4, n=3",mode shape,exact Bessel combination (fp64),same coefficients at higher precision,1.0,0.0,1e-09,True,degenerate pair; comparison at dps = 33
+P4,mode 1,mode shape,"graded Q2 FEM, n = 8 (the mesh the scorer uses)",same construction at n = 16,0.9999819602960526,1.80397039474256e-05,0.001,True,
+P4,mode 2,mode shape,"graded Q2 FEM, n = 8 (the mesh the scorer uses)",same construction at n = 16,0.9999635331717982,3.6466828201797696e-05,0.001,True,
+P4,mode 3,mode shape,"graded Q2 FEM, n = 8 (the mesh the scorer uses)",same construction at n = 16,0.9999100828584045,8.99171415954525e-05,0.001,True,
+P4,mode 4,mode shape,"graded Q2 FEM, n = 8 (the mesh the scorer uses)",same construction at n = 16,0.9996386596081277,0.00036134039187230016,0.001,True,"adjacent eigenvalue gap 0.042 is inside the pre-specified tolerance 0.05, so the simple-mode rule cannot separate this mode by eigenvalue; the shape itself is individually resolved, as this row shows"
+P4,mode 5,mode shape,"graded Q2 FEM, n = 8 (the mesh the scorer uses)",same construction at n = 16,0.9996453955335884,0.00035460446641155663,0.001,True,"adjacent eigenvalue gap 0.009 is inside the pre-specified tolerance 0.05, so the simple-mode rule cannot separate this mode by eigenvalue; the shape itself is individually resolved, as this row shows"
+P4,mode 6,mode shape,"graded Q2 FEM, n = 8 (the mesh the scorer uses)",same construction at n = 16,0.9998592150027263,0.00014078499727365745,0.001,True,"adjacent eigenvalue gap 0.009 is inside the pre-specified tolerance 0.05, so the simple-mode rule cannot separate this mode by eigenvalue; the shape itself is individually resolved, as this row shows"
+P3,all,not applicable (no mode shape is read),"transfer-matrix determinant, root-found at mpmath dps = 50",not applicable,1.0,0.0,0.0,True,"P3 carries no neural training run and no per-seed classification: its outputs are eigenvalue errors and a structural jump-capability flag, with no MAC gate, no seed ensemble and no Wilson interval. The scoring therefore reads only the eigenvalue, which is certified by the high-precision root-finding of the reference itself. The largest beta reported on P3 is 17.3, so the cancellation that damaged the P1 shape at beta = 42.4 does not arise here"

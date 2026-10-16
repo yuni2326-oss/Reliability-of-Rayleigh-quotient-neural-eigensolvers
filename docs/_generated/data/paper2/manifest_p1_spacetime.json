@@ -1,0 +1,24 @@
+{
+  "git_sha": "22517e77b6fa7b99e338795463133aa4ec9f63c2",
+  "git_branch": "unknown",
+  "git_dirty": true,
+  "timestamp_utc": "2026-08-11T16:38:54.334989+00:00",
+  "python": "3.12.3",
+  "numpy": "2.1.0",
+  "scipy": "1.17.1",
+  "mpmath": "1.3.0",
+  "platform": "Linux 6.17.0-1021-nvidia aarch64",
+  "precision": "fp64 + mpmath dps=50",
+  "driver": "run_p1_spacetime.main",
+  "n_periods": [
+    4.0,
+    8.0,
+    16.0,
+    32.0
+  ],
+  "iters": 4000,
+  "n_seeds": 3,
+  "n_col": 4096,
+  "purpose": "negative result — 잔차와 고유값 오차의 역상관, 그리고 시간 지평에 따른 악화",
+  "reimplemented_from": "impeller_pinn(논문1) 시간영역 PINN을 수정 없이 재구현"
+}

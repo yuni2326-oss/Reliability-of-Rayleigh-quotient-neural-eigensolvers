@@ -1,0 +1,8 @@
+arm,mode,ladder,nodes,n,p_correct,wilson_lo,wilson_hi,correct,lower_mode_basin,spurious,non_converged,p_accurate,n_certified,iters,seconds,variant,base_iters,p_correct_base,budget_resolved,rank_median,rank_min,n_modes_solved
+a_prime_projection_diagonal,3,I0,gauss,50,0.0,0.0,0.0713475991644559,0,50,0,0,0.0,50,20000,1116.7404297279427,long_run,4000,0.0,False,,,
+b_projection_exact,9,I0,gauss,50,0.96,0.8653990930933617,0.9889611156753388,48,0,1,1,0.98,49,20000,3024.5954524439294,long_run,4000,0.78,True,,,
+b_projection_exact,10,I0,gauss,50,1.0,0.9286524008355441,1.0,50,0,0,0,1.0,50,20000,3332.421872318955,long_run,4000,0.82,True,,,
+e_simultaneous_subspace,1,I0,gauss,50,0.02,0.0035392592704817324,0.10495443592739592,1,0,1,48,0.18,2,20000,3252.931468744995,long_run,4000,0.2,False,6.0,6,6
+e_simultaneous_subspace,3,I0,gauss,50,1.0,0.9286524008355441,1.0,50,0,0,0,1.0,50,20000,3252.931468744995,long_run,4000,0.44,True,6.0,6,6
+d_neural_basis_galerkin(M=9),4,I0,gauss,50,0.0,0.0,0.0713475991644559,0,0,1,49,0.04,1,20000,4626.638196018059,long_run,4000,0.0,False,5.0,3,6
+d_neural_basis_galerkin(M=9),5,I0,gauss,50,0.0,0.0,0.0713475991644559,0,0,0,50,0.0,0,20000,4626.638196018059,long_run,4000,0.0,False,5.0,3,6

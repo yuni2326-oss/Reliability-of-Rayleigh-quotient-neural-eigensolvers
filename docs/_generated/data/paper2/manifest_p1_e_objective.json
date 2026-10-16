@@ -1,0 +1,21 @@
+{
+  "git_sha": "5caa2faa6ec72dfcb1a1114410bdb89c5de87691",
+  "git_branch": "master",
+  "git_dirty": true,
+  "timestamp_utc": "2026-08-07T05:41:25.428323+00:00",
+  "python": "3.12.3",
+  "numpy": "2.1.0",
+  "scipy": "1.17.1",
+  "mpmath": "1.3.0",
+  "platform": "Linux 6.17.0-1021-nvidia aarch64",
+  "precision": "fp64 + mpmath dps=50",
+  "driver": "run_p1_neural.run_e_objective_ablation",
+  "n_seeds": 50,
+  "iters": 4000,
+  "n_modes": 6,
+  "objectives": [
+    "trace",
+    "logtrace"
+  ],
+  "hypothesis": "절대 trace의 가중 비대칭이 모드1 희생을 보상하는가 — logtrace로 상대 가중을 주어 검정"
+}

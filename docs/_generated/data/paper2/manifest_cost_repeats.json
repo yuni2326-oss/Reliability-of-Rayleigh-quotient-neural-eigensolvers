@@ -1,0 +1,22 @@
+{
+  "git_sha": "94d6291e5a8ecbf78ef6fa2bfe8d8264e7faec1a",
+  "git_branch": "master",
+  "git_dirty": true,
+  "timestamp_utc": "2026-08-09T12:06:11.766357+00:00",
+  "python": "3.12.3",
+  "numpy": "2.5.0",
+  "scipy": "1.18.0",
+  "mpmath": "1.3.0",
+  "platform": "Linux 6.17.0-1021-nvidia aarch64",
+  "precision": "fp64 + mpmath dps=50",
+  "driver": "run_cost_repeats.main",
+  "reps": 7,
+  "dofs": [
+    6,
+    8,
+    10,
+    12
+  ],
+  "timed": "basis construction + assembly + solve, n_q = max(2*n_dof, 12) as in run_p1",
+  "why": "the classical side of every cost ratio was a single unrepeated measurement while the neural side had three; short measurements are the more exposed to contention, so the denominator was the unprotected one"
+}

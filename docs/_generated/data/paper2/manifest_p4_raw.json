@@ -1,0 +1,56 @@
+{
+  "git_sha": "c8db9faf673b3c45cd71c6b7bbc5e89069bc93e6",
+  "git_branch": "unknown",
+  "git_dirty": true,
+  "timestamp_utc": "2026-10-15T02:38:28.809446+00:00",
+  "python": "3.12.3",
+  "numpy": "2.1.0",
+  "scipy": "1.17.1",
+  "mpmath": "1.3.0",
+  "platform": "Linux 6.17.0-1021-nvidia aarch64",
+  "precision": "fp64 + mpmath dps=50",
+  "driver": "run_paperA_mlst.p4_raw",
+  "launch": {
+    "git_sha": "c8db9faf673b3c45cd71c6b7bbc5e89069bc93e6",
+    "git_dirty": false,
+    "timestamp_utc": "2026-10-15T01:12:44.145637+00:00"
+  },
+  "quick": false,
+  "arms": [
+    "diagonal",
+    "exact",
+    "qr"
+  ],
+  "n_modes": 3,
+  "n_seeds": 50,
+  "iters": 4000,
+  "n_per_block": 20,
+  "width": 64,
+  "depth": 4,
+  "n_ref": 8,
+  "beta": 3.0,
+  "storage": "raw: the pre-projection state of each stage is stored, as on P1; the committed P4 runs stored the projected state",
+  "jitter": "the exact path adds 1e-14 times the identity to the Gram (absolute), as committed",
+  "reproduction_gate": {
+    "diagonal": {
+      "checked": true,
+      "n": 100,
+      "bit_identical": 100,
+      "pass": true
+    },
+    "exact": {
+      "checked": true,
+      "n": 100,
+      "bit_identical": 100,
+      "pass": true
+    },
+    "qr": {
+      "checked": true,
+      "n": 100,
+      "bit_identical": 100,
+      "pass": true
+    }
+  },
+  "params": "p4_params_raw.npz (not in the repository)",
+  "prespecification": "2026-10-14-mlst-prespecification.md"
+}

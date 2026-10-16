@@ -1,0 +1,3 @@
+arm,mode,ladder,nodes,n,p_correct,wilson_lo,wilson_hi,correct,lower_mode_basin,spurious,non_converged,p_accurate,n_certified,iters,seconds,init_seconds,seconds_with_init,alpha,r,op_exact_vs_raw_rel
+basis_exact_alpha=0.01,3,I0,gauss,50,1.0,0.9286524008355441,1.0,50,0,0,0,1.0,50,4000,101.5232456800004,4.3198815546929836e-07,101.52324611198856,0.01,0.009999500037496877,4.548429151581071e-12
+basis_exact_alpha=0.25,3,I0,gauss,50,1.0,0.9286524008355441,1.0,50,0,0,0,1.0,50,4000,101.22028281600797,7.520138751715422e-07,101.22028356802184,0.25,0.24253562503633297,4.286774977553067e-12

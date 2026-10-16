@@ -1,0 +1,37 @@
+{
+  "git_sha": "94d6291e5a8ecbf78ef6fa2bfe8d8264e7faec1a",
+  "git_branch": "master",
+  "git_dirty": true,
+  "timestamp_utc": "2026-08-09T04:02:13.784117+00:00",
+  "python": "3.12.3",
+  "numpy": "2.1.0",
+  "scipy": "1.17.1",
+  "mpmath": "1.3.0",
+  "platform": "Linux 6.17.0-1021-nvidia aarch64",
+  "precision": "fp64 + mpmath dps=50",
+  "driver": "run_p1_neural.run_warm_cold",
+  "n_seeds": 50,
+  "iters": 200,
+  "modes": [
+    3
+  ],
+  "levels": [
+    "I0",
+    "I1",
+    "I2",
+    "I3",
+    "I5"
+  ],
+  "arms": [
+    "a_prime_projection_diagonal",
+    "b_projection_exact"
+  ],
+  "warm_cold_map": {
+    "I0": "cold",
+    "I1": "cold",
+    "I2": "warm-lambda",
+    "I3": "warm-shape",
+    "I4": "warm-staged",
+    "I5": "warm-oracle"
+  }
+}

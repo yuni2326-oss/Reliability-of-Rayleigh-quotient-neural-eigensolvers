@@ -1,0 +1,19 @@
+{
+  "git_sha": "6a507df985c3fc4f24d1f30a8c541e47cf2e3ad0",
+  "git_branch": "master",
+  "git_dirty": true,
+  "timestamp_utc": "2026-08-26T03:47:52.305259+00:00",
+  "python": "3.12.3",
+  "numpy": "2.1.0",
+  "scipy": "1.17.1",
+  "mpmath": "1.3.0",
+  "platform": "Linux 6.17.0-1021-nvidia aarch64",
+  "precision": "fp64 + mpmath dps=50",
+  "driver": "run_p1_qr.single_seed_cost",
+  "arm": "b_prime_projection_qr",
+  "n_modes": 3,
+  "iters": 4000,
+  "reps": 3,
+  "added": "2026-08-26, after the pre-specified grid; the judgment rules (MAC >= 0.9, |dlambda|/lambda <= 0.05, four outcomes, 50 seeds, Wilson 95 %, 4000 iterations) were not changed",
+  "why": "the QR arm replaces one k x k solve per iteration with k(k+1)/2 inner products, so its per-attempt cost has to be measured, not argued"
+}

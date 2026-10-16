@@ -1,0 +1,27 @@
+{
+  "git_sha": "c8db9faf673b3c45cd71c6b7bbc5e89069bc93e6",
+  "git_branch": "unknown",
+  "git_dirty": true,
+  "timestamp_utc": "2026-10-15T01:12:04.356795+00:00",
+  "python": "3.12.3",
+  "numpy": "2.1.0",
+  "scipy": "1.17.1",
+  "mpmath": "1.3.0",
+  "platform": "Linux 6.17.0-1021-nvidia aarch64",
+  "precision": "fp64 + mpmath dps=50",
+  "driver": "run_paperA_mlst.p1_rf_fp32",
+  "launch": {
+    "git_sha": "c8db9faf673b3c45cd71c6b7bbc5e89069bc93e6",
+    "git_dirty": false,
+    "timestamp_utc": "2026-10-15T01:04:34.680889+00:00"
+  },
+  "quick": false,
+  "n_modes": 10,
+  "n_seeds": 50,
+  "iters": 4000,
+  "dtype": "float32",
+  "prefix": "modes 1-2 in float32 on the network-storage path with the diagonal rule",
+  "arm": "storage-time orthogonalization (classical Gram-Schmidt of the deflated state, float32) + diagonal rule from mode 3 on",
+  "compare": "committed float32 cells p1_fp32_stress.csv (b) and (b') at the same seeds; the float32 initial weights are paired across arms, the prefixes are not bitwise equal",
+  "prespecification": "2026-10-14-mlst-prespecification.md"
+}

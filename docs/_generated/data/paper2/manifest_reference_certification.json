@@ -1,0 +1,24 @@
+{
+  "git_sha": "6a507df985c3fc4f24d1f30a8c541e47cf2e3ad0",
+  "git_branch": "master",
+  "git_dirty": true,
+  "timestamp_utc": "2026-08-27T10:40:23.035550+00:00",
+  "python": "3.12.3",
+  "numpy": "2.5.0",
+  "scipy": "1.18.0",
+  "mpmath": "1.3.0",
+  "platform": "Linux 6.17.0-1021-nvidia aarch64",
+  "precision": "fp64 + mpmath dps=50",
+  "driver": "run_reference_certification.main",
+  "n_modes_p1": 20,
+  "dps": 30,
+  "n_q": 192,
+  "p4_meshes": [
+    8,
+    16
+  ],
+  "p4_beta": 3.0,
+  "worst_deficit": 0.00036134039187230016,
+  "why": "the reference-uncertainty column certifies the eigenvalues; the MAC gate compares mode shapes, which reach the scorer by a different numerical path. A defect in the P1 shape reference at high mode order was found this way: catastrophic cancellation in the textbook cosh/sinh form put the mode-14 reference at MAC 0.887 against its own high-precision evaluation, below the 0.9 gate",
+  "added": "2026-08-27"
+}

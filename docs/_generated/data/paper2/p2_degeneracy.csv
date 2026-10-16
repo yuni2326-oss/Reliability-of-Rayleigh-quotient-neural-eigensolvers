@@ -1,0 +1,6 @@
+m,individual_mac_rotated,subspace_mac_rotated,max_principal_angle_rad,note
+0,1.0,1.0,0.0,not degenerate: sin(0*theta) = 0
+1,0.6545084971874743,0.9999999999999998,2.1073424255447017e-08,rotated pair spans the same eigenspace
+2,0.09549150281252622,0.9999999999999996,2.9802322387695312e-08,rotated pair spans the same eigenspace
+3,0.09549150281252643,1.0,0.0,rotated pair spans the same eigenspace
+4,0.6545084971874758,0.9999999999999998,2.1073424255447017e-08,rotated pair spans the same eigenspace

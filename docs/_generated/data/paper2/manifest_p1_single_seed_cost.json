@@ -1,0 +1,22 @@
+{
+  "git_sha": "94d6291e5a8ecbf78ef6fa2bfe8d8264e7faec1a",
+  "git_branch": "master",
+  "git_dirty": true,
+  "timestamp_utc": "2026-08-09T09:00:40.450287+00:00",
+  "python": "3.12.3",
+  "numpy": "2.1.0",
+  "scipy": "1.17.1",
+  "mpmath": "1.3.0",
+  "platform": "Linux 6.17.0-1021-nvidia aarch64",
+  "precision": "fp64 + mpmath dps=50",
+  "driver": "run_p1_neural.run_single_seed_cost",
+  "iters": 4000,
+  "reps": 3,
+  "modes": [
+    1,
+    2,
+    3
+  ],
+  "why": "the ensemble-to-per-attempt conversion factor was measured at 2.53 and at 7.82 on the same machine, so it is not usable; this measures the quantity the cost tables need directly",
+  "machine_note": "the GPU is shared with a resident LLM serving stack; wall-clock spread is reported per row"
+}

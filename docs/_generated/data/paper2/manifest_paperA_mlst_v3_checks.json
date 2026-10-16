@@ -1,0 +1,24 @@
+{
+  "git_sha": "474b562270bd84c8b613eed9fb40e9178143e6c9",
+  "git_branch": "unknown",
+  "git_dirty": true,
+  "timestamp_utc": "2026-10-15T09:58:37.038653+00:00",
+  "python": "3.12.3",
+  "numpy": "2.1.0",
+  "scipy": "1.17.1",
+  "mpmath": "1.3.0",
+  "platform": "Linux 6.17.0-1026-nvidia aarch64",
+  "precision": "fp64 + mpmath dps=50",
+  "driver": "paperA_mlst_v3_checks.main",
+  "launch": {
+    "git_sha": "474b562270bd84c8b613eed9fb40e9178143e6c9",
+    "git_dirty": false,
+    "timestamp_utc": "2026-10-15T09:58:36.992675+00:00"
+  },
+  "inputs": [
+    "p1_single_seed_cost.csv",
+    "p1p4_classical_cost_repeats.csv",
+    "p1_fp32_raw_sets.npz"
+  ],
+  "why": "v3 Word comments (2026-10-15): timing spread vs table 16 ranking, precision of the fp64 reference in table S21, Cholesky/eigh boundary at raw monomial N = 12, untimed coarse target of arm (c)"
+}

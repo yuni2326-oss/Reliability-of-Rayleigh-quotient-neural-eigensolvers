@@ -1,0 +1,21 @@
+{
+  "git_sha": "d77e509f4c8eb49d412b747f221d42a33952390b",
+  "git_branch": "master",
+  "git_dirty": true,
+  "timestamp_utc": "2026-08-09T12:35:16.938412+00:00",
+  "python": "3.12.3",
+  "numpy": "2.1.0",
+  "scipy": "1.17.1",
+  "mpmath": "1.3.0",
+  "platform": "Linux 6.17.0-1021-nvidia aarch64",
+  "precision": "fp64 + mpmath dps=50",
+  "driver": "run_p1_neural.summarize_warm_cold",
+  "budgets": [
+    200,
+    400,
+    4000
+  ],
+  "per_attempt_ratio": "single-seed / ensemble measured at 4000 iters per arm, applied as a ratio to the other budgets",
+  "prefit_budget_note": "the pre-fit uses max(iters//2, 200) iterations, so it is tied to the main budget by design and is not constant across budgets",
+  "note": "E[T] charges the pre-fit. E_T_success_if_init_free is the value when it is not charged, reported alongside as evidence that the accounting choice reverses the ranking."
+}

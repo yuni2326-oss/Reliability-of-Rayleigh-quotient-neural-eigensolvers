@@ -1,0 +1,29 @@
+{
+  "git_sha": "97bb8ef68cf6dffe63a38e92c510c59fcc6da761",
+  "git_branch": "unknown",
+  "git_dirty": true,
+  "timestamp_utc": "2026-08-04T09:18:40.967424+00:00",
+  "python": "3.12.3",
+  "numpy": "2.1.0",
+  "scipy": "1.17.1",
+  "mpmath": "1.3.0",
+  "platform": "Linux 6.17.0-1021-nvidia aarch64",
+  "precision": "fp64 + mpmath dps=50",
+  "driver": "run_p1_neural.run_long",
+  "base_iters": 4000,
+  "long_iters": 20000,
+  "n_seeds": 50,
+  "quick": false,
+  "cells": [
+    "a_prime_projection_diagonal@m3",
+    "b_projection_exact@m9",
+    "b_projection_exact@m10",
+    "e_simultaneous_subspace@m1",
+    "e_simultaneous_subspace@m3",
+    "e_simultaneous_subspace@m1",
+    "e_simultaneous_subspace@m3",
+    "d_neural_basis_galerkin(M=9)@m4",
+    "d_neural_basis_galerkin(M=9)@m5"
+  ],
+  "git_sha_provenance": "GPU 컨테이너에 git이 없어 실행 시점에 기록되지 못했다. 이 값은 산출물이 리포에 처음 들어온 커밋(p1_neural_longrun.csv을 추가한 커밋)에서 사후 복원했으며, 코드가 실제로 돌던 SHA와 같다는 보장은 없다 — 추적 앵커로만 쓴다. timestamp_utc가 1차 근거다."
+}

@@ -1,0 +1,144 @@
+{
+  "status": "post hoc: added after the prespecified outputs were seen; not part of the prespecified judgments",
+  "level": 8,
+  "adf_all_cells_projected": {
+    "diagonal_mode1": {
+      "n": 50,
+      "n_correct": 38,
+      "max_rel_4_8": 3.677557189127433e-07,
+      "median_rel_0_8": 9.000932006221173e-05,
+      "max_rel_0_8": 0.962122164905333,
+      "gate_crossings": 1
+    },
+    "diagonal_mode2": {
+      "n": 50,
+      "n_correct": 34,
+      "max_rel_4_8": 1.0846105067435298e-07,
+      "median_rel_0_8": 3.239258376073781e-05,
+      "max_rel_0_8": 0.999739501668494,
+      "gate_crossings": 6
+    },
+    "diagonal_mode3": {
+      "n": 50,
+      "n_correct": 33,
+      "max_rel_4_8": 3.418623804072848e-07,
+      "median_rel_0_8": 9.392132382213973e-05,
+      "max_rel_0_8": 0.9997717205649644,
+      "gate_crossings": 3
+    },
+    "exact_mode1": {
+      "n": 50,
+      "n_correct": 38,
+      "max_rel_4_8": 3.677557189127433e-07,
+      "median_rel_0_8": 9.000932006221173e-05,
+      "max_rel_0_8": 0.962122164905333,
+      "gate_crossings": 1
+    },
+    "exact_mode2": {
+      "n": 50,
+      "n_correct": 34,
+      "max_rel_4_8": 2.1373745229085103e-07,
+      "median_rel_0_8": 3.233181412553293e-05,
+      "max_rel_0_8": 0.9973482937653686,
+      "gate_crossings": 7
+    },
+    "exact_mode3": {
+      "n": 50,
+      "n_correct": 33,
+      "max_rel_4_8": 3.4208882095830393e-07,
+      "median_rel_0_8": 9.398946202269838e-05,
+      "max_rel_0_8": 0.9998839495209316,
+      "gate_crossings": 3
+    },
+    "qr_mode1": {
+      "n": 50,
+      "n_correct": 38,
+      "max_rel_4_8": 3.677557189127433e-07,
+      "median_rel_0_8": 9.000932006221173e-05,
+      "max_rel_0_8": 0.962122164905333,
+      "gate_crossings": 1
+    },
+    "qr_mode2": {
+      "n": 50,
+      "n_correct": 33,
+      "max_rel_4_8": 1.4323178366365585e-07,
+      "median_rel_0_8": 3.241145134635271e-05,
+      "max_rel_0_8": 0.9997738535644273,
+      "gate_crossings": 6
+    },
+    "qr_mode3": {
+      "n": 50,
+      "n_correct": 33,
+      "max_rel_4_8": 3.41256627738025e-07,
+      "median_rel_0_8": 9.36918268719645e-05,
+      "max_rel_0_8": 0.999748269051334,
+      "gate_crossings": 3
+    }
+  },
+  "correct_kept_max_rel_0_level": 0.000903698090587547,
+  "state_max_abs_diff": 0.0,
+  "mode3_between_runs": {
+    "diagonal": {
+      "n_both_correct": 19,
+      "mac_both_correct_min": 0.9917419482697243,
+      "max_abs_e_lam_difference_both_correct": 0.0025070989320286757,
+      "n_other": 31,
+      "mac_other_median": 0.00019077599462029022,
+      "mac_other_min": 9.776190729138384e-09,
+      "outcome_pairs_other": {
+        "lower_mode_basin | correct": 4,
+        "non_converged | non_converged": 8,
+        "spurious | spurious": 4,
+        "non_converged | correct": 9,
+        "non_converged | spurious": 4,
+        "spurious | correct": 1,
+        "spurious | non_converged": 1
+      },
+      "amp_ratio_min": 0.07763352891951047,
+      "amp_ratio_max": 25.474482894225392,
+      "stage3_defect_max": 1.0940052497305108e-15,
+      "stage3_defect_jitter_max": 0.0,
+      "stage3_defect_minus_jitter_max": 1.0940052497305108e-15,
+      "stage3_defect_vs_solver_max_abs": 1.0768165340629108e-15
+    },
+    "exact": {
+      "n_both_correct": 33,
+      "mac_both_correct_min": 0.9997687035878626,
+      "max_abs_e_lam_difference_both_correct": 0.00011496040246973234,
+      "n_other": 17,
+      "mac_other_median": 0.9999566734042382,
+      "mac_other_min": 0.06014057745547411,
+      "outcome_pairs_other": {
+        "spurious | spurious": 6,
+        "non_converged | non_converged": 7,
+        "non_converged | spurious": 3,
+        "spurious | non_converged": 1
+      },
+      "amp_ratio_min": 0.8839926169326536,
+      "amp_ratio_max": 14.433409089780431,
+      "stage3_defect_max": 2.943467588505493e-11,
+      "stage3_defect_jitter_max": 2.943462780538517e-11,
+      "stage3_defect_minus_jitter_max": 1.0389596942130259e-16,
+      "stage3_defect_vs_solver_max_abs": 7.784617922064488e-16
+    },
+    "qr": {
+      "n_both_correct": 33,
+      "mac_both_correct_min": 0.9999028171913374,
+      "max_abs_e_lam_difference_both_correct": 0.00015016693903018756,
+      "n_other": 17,
+      "mac_other_median": 0.9956375558040278,
+      "mac_other_min": 0.03514130594221664,
+      "outcome_pairs_other": {
+        "non_converged | non_converged": 10,
+        "spurious | spurious": 5,
+        "non_converged | spurious": 2
+      },
+      "amp_ratio_min": 0.41626464978159183,
+      "amp_ratio_max": 14.214133517496085,
+      "stage3_defect_max": 7.859444129043759e-16,
+      "stage3_defect_jitter_max": 0.0,
+      "stage3_defect_minus_jitter_max": 7.859444129043759e-16,
+      "stage3_defect_vs_solver_max_abs": 6.661338147750939e-16
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "git_sha": "064260c21e89ad0222f4a03dac511170644aaf70",
+  "git_branch": "unknown",
+  "git_dirty": true,
+  "timestamp_utc": "2026-10-15T06:26:20.744319+00:00",
+  "python": "3.12.3",
+  "numpy": "2.1.0",
+  "scipy": "1.17.1",
+  "mpmath": "1.3.0",
+  "platform": "Linux 6.17.0-1021-nvidia aarch64",
+  "precision": "fp64 + mpmath dps=50",
+  "driver": "run_paperA_mlst.p1_fp32_fixed_span",
+  "launch": {
+    "git_sha": "064260c21e89ad0222f4a03dac511170644aaf70",
+    "git_dirty": false,
+    "timestamp_utc": "2026-10-15T05:50:31.057691+00:00"
+  },
+  "quick": false,
+  "n_modes": 10,
+  "n_seeds": 50,
+  "iters": 4000,
+  "dtype": "float32",
+  "rerun": "arm (b) float32 on the committed configuration (network storage, Gauss 256); raw outputs of every stage saved; its classification is recorded, not used in the reliability tables",
+  "routes": "gram = normal equations; cgs = classical Gram-Schmidt of the raw stored set at storage time + diagonal rule; mgs = weighted modified Gram-Schmidt with sqrt(eps) discard",
+  "reference": "float64 SVD least squares on the same float32 arrays",
+  "prespecification": "2026-10-15-mlst-followup-prespecification.md"
+}

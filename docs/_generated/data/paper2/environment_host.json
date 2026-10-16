@@ -1,0 +1,22 @@
+{
+  "git_sha": "2d98b881d10b5ac59e16ce07283ea3da57e7f93d",
+  "git_branch": "master",
+  "git_dirty": true,
+  "timestamp_utc": "2026-08-12T05:49:38.128237+00:00",
+  "python": "3.12.3",
+  "numpy": "2.5.0",
+  "scipy": "1.18.0",
+  "mpmath": "1.3.0",
+  "platform": "Linux 6.17.0-1021-nvidia aarch64",
+  "precision": "fp64 + mpmath dps=50",
+  "record": "execution environment",
+  "cpu": "10× Cortex-X925 + 10× Cortex-A725 (20 threads total)",
+  "os": "Ubuntu 24.04.4 LTS",
+  "kernel": "6.17.0-1021-nvidia",
+  "gpu": "NVIDIA GB10",
+  "nvidia_driver": "580.159.03",
+  "matplotlib": "3.11.0",
+  "role": "classical solves, high-precision references, render pipeline (CPU)",
+  "fp64": "numpy float64 throughout; mpmath dps=50 for references",
+  "python_executable": "/home/super/equip-venv/bin/python"
+}

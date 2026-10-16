@@ -1,0 +1,23 @@
+{
+  "git_sha": "98d0d178ad3bb93aee40b3f7e0897f1c0066ce7a",
+  "git_branch": "feat/eigen-benchmark-plan3",
+  "git_dirty": true,
+  "timestamp_utc": "2026-08-04T23:42:16.279485+00:00",
+  "python": "3.12.3",
+  "numpy": "2.1.0",
+  "scipy": "1.17.1",
+  "mpmath": "1.3.0",
+  "platform": "Linux 6.17.0-1021-nvidia aarch64",
+  "precision": "fp64 + mpmath dps=50",
+  "driver": "run_p1_neural.run_collinearity_diagnostic",
+  "n_seeds": 16,
+  "iters": 4000,
+  "w_orths": [
+    0.0,
+    1000000.0
+  ],
+  "K": 6,
+  "M": 9,
+  "metric": "corr_index = eig_max(C)/n_basis (C = 상관행렬, 척도무관·정본); 1 = 모든 쌍 |rho|=1, 1/n_basis = 직교. raw_index_confounded = eig_max(B)/trace(B) 는 노름 불균형에 오염되므로 참고용",
+  "basis_npz": "p1_neural_collinearity_basis.npz"
+}

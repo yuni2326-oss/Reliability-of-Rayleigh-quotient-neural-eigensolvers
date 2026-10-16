@@ -1,0 +1,30 @@
+{
+  "git_sha": "c8db9faf673b3c45cd71c6b7bbc5e89069bc93e6",
+  "git_branch": "unknown",
+  "git_dirty": true,
+  "timestamp_utc": "2026-10-15T02:39:45.985098+00:00",
+  "python": "3.12.3",
+  "numpy": "2.1.0",
+  "scipy": "1.17.1",
+  "mpmath": "1.3.0",
+  "platform": "Linux 6.17.0-1021-nvidia aarch64",
+  "precision": "fp64 + mpmath dps=50",
+  "driver": "run_paperA_mlst.p4_adf",
+  "launch": {
+    "git_sha": "c8db9faf673b3c45cd71c6b7bbc5e89069bc93e6",
+    "git_dirty": false,
+    "timestamp_utc": "2026-10-15T02:38:38.545065+00:00"
+  },
+  "quick": false,
+  "levels": [
+    0,
+    4,
+    8
+  ],
+  "n_per_cell": 20,
+  "ratio": 0.5,
+  "quadrature": "three unit blocks, each axis cut toward the re-entrant corner (1, 1) at L*0.5^j (j = 1..level), n_per_cell^2 Gauss points per cell; level 0 is the training quadrature",
+  "reference": "graded Q2 FEM (n = 8, beta = 3) modes 1-3, displacement and gradient evaluated at the quadrature points; Lam_fem is the FEM eigenvalue",
+  "neural": "p4_params_raw.npz networks, re-projected on each quadrature with the raw-storage convention of their own arm",
+  "prespecification": "2026-10-14-mlst-prespecification.md"
+}

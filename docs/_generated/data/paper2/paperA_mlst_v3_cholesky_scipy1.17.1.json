@@ -1,0 +1,48 @@
+{
+  "git_sha": "474b562270bd84c8b613eed9fb40e9178143e6c9",
+  "git_branch": "unknown",
+  "git_dirty": true,
+  "timestamp_utc": "2026-10-15T09:58:37.552474+00:00",
+  "python": "3.12.3",
+  "numpy": "2.1.0",
+  "scipy": "1.17.1",
+  "mpmath": "1.3.0",
+  "platform": "Linux 6.17.0-1026-nvidia aarch64",
+  "precision": "fp64 + mpmath dps=50",
+  "driver": "paperA_mlst_v3_checks.cholesky",
+  "result": {
+    "numpy": "2.1.0",
+    "scipy": "1.17.1",
+    "n": 12,
+    "asymmetry_rel": 0.0,
+    "potrf_lower_info": 0,
+    "scipy_cholesky_lower": {
+      "ok": true,
+      "message": ""
+    },
+    "potrf_upper_info": 0,
+    "scipy_cholesky_upper": {
+      "ok": true,
+      "message": ""
+    },
+    "eig_M_min": 6.1054747070982195e-18,
+    "eig_M_max": 0.9046928810319561,
+    "eigh": {
+      "gvd": {
+        "ok": true,
+        "lambda_1": 12.362363368406939,
+        "backward_error": 2.2252319645334235e-14
+      },
+      "gv": {
+        "ok": true,
+        "lambda_1": 12.362363368406939,
+        "backward_error": 2.2103124617870578e-14
+      },
+      "gvx": {
+        "ok": true,
+        "lambda_1": 12.362363368406939,
+        "backward_error": 2.2103124617870578e-14
+      }
+    }
+  }
+}

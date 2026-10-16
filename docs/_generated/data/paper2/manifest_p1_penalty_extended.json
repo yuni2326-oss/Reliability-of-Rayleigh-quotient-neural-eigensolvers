@@ -1,0 +1,22 @@
+{
+  "git_sha": "6ee797b478521e077da1853818f1800934a83f47",
+  "git_branch": "master",
+  "git_dirty": true,
+  "timestamp_utc": "2026-08-10T09:13:34.423474+00:00",
+  "python": "3.12.3",
+  "numpy": "2.1.0",
+  "scipy": "1.17.1",
+  "mpmath": "1.3.0",
+  "platform": "Linux 6.17.0-1021-nvidia aarch64",
+  "precision": "fp64 + mpmath dps=50",
+  "driver": "run_p1_neural.run_penalty_extended",
+  "weights": [
+    10000.0,
+    100000.0
+  ],
+  "n_seeds": 50,
+  "iters": 4000,
+  "n_modes": 3,
+  "objective": "w * sum_k <Phi_k,phi>^2 / (|phi|^2 |Phi_k|^2) — normalized, so bounded by w per mode",
+  "hypothesis": "the penalty-to-Rayleigh ratio scales as w / Lambda_m, so mode 3 may need roughly Lambda_3/Lambda_2 ~ 7.8x the weight that sufficed for mode 2"
+}
