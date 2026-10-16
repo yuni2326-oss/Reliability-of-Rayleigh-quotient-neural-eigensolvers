@@ -96,9 +96,11 @@ and bfloat16; each row and each manifest records the working precision it used.
 | NumPy / SciPy / mpmath | 2.1.0 or 2.5.0 / 1.17.1 or 1.18.0 / 1.3.0 |
 | PyTorch | 2.12.0a0 (NGC 26.04) |
 
-Two NumPy/SciPy combinations appear because the host environment was upgraded mid-study. Each
-manifest records which combination produced its artifact, and the suite runs against the
-committed data under either.
+Two NumPy/SciPy combinations appear because two environments were used side by side: the
+classical and reference runs used a host Python environment (NumPy 2.5.0 / SciPy 1.18.0), and the
+neural runs and later analyses used the GPU container (NumPy 2.1.0 / SciPy 1.17.1). Each manifest
+records which combination produced its artifact, and the suite runs against the committed data
+under either.
 
 Regenerating a result under the other combination is not bitwise. Rows built on
 well-conditioned bases (B-spline, Legendre, Chebyshev, Hermite elements) agree to about 1e-8
