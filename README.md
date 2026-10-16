@@ -68,7 +68,7 @@ than fail, each stating why.
 Regenerating results, rather than checking them:
 
 ```bash
-PYTHONPATH=. python -m eigen_benchmark.drivers.run_p1     # classical, minutes
+PYTHONPATH=. python -m eigen_benchmark.drivers.run_p1     # classical, seconds
 PYTHONPATH=. python -m eigen_benchmark.drivers.run_p3     # mpmath root-finding, ~20 min
 PYTHONPATH=. python -m eigen_benchmark.drivers.run_p1_neural   # GPU, hours
 PYTHONPATH=. python -c "from eigen_benchmark.drivers import run_paperA_mlst as ml; ml.p4_raw()"   # GPU, ~1.5 h
@@ -96,10 +96,16 @@ and bfloat16; each row and each manifest records the working precision it used.
 | PyTorch | 2.12.0a0 (NGC 26.04) |
 
 Two NumPy/SciPy combinations appear because the host environment was upgraded mid-study. Each
-manifest records which combination produced its artifact. One recorded boundary case depends
-on the combination: fp64 Cholesky of the raw-monomial P1 mass matrix at N = 12 fails under
-NumPy 2.5.0 / SciPy 1.18.0 and succeeds under NumPy 2.1.0 / SciPy 1.17.1
-(`drivers/paperA_mlst_v3_checks.py`). The suite runs against the committed data under either.
+manifest records which combination produced its artifact, and the suite runs against the
+committed data under either.
+
+Regenerating a result under the other combination is not bitwise. Rows built on
+well-conditioned bases (B-spline, Legendre, Chebyshev, Hermite elements) agree to about 1e-8
+relative. Rows at the fp64 conditioning limit (the monomial bases, the orthonormalized bases
+and the split-domain enrichment at N = 12) can change in their condition numbers, eigenvalue
+digits, Cholesky outcome and whether e_λ ≤ 0.05. Cholesky of the raw-monomial mass matrix at
+N = 12, for instance, fails for P1 and succeeds for P3 under NumPy 2.5.0 / SciPy 1.18.0, and
+the reverse under NumPy 2.1.0 / SciPy 1.17.1.
 
 ## License
 
